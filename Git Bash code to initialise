@@ -1,0 +1,83 @@
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~
+$ cd documents\
+> cd deep_r_workshop_2018\
+>
+bash: cd: too many arguments
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~
+$
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~
+$ pwd
+/c/Users/jepa7971
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~
+$ cd documents\
+>
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents
+$ cd deep_r_workshop_2018\
+>
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018
+$ cd Git\
+>
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git
+$ cd jessicronje.github.io\
+>
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io (JessP)
+$ cd dafnia\
+>
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
+$ git remote add origin https://github.com/jessiecronje/dafnia.git
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
+$ git add *
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
+$ git commit -m "initial commit"
+[master (root-commit) 63e1c00] initial commit
+ Committer: Jessica Page <jepa7971@win.su.se>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 62 insertions(+)
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/hello.R
+ create mode 100644 dafnia.Rproj
+ create mode 100644 man/hello.Rd
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1.30 KiB | 664.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/jessiecronje/dafnia/pull/new/master
+remote:
+To https://github.com/jessiecronje/dafnia.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
+$ ^C
+
+jepa7971@ng-jepa7971-b0- MINGW64 ~/documents/deep_r_workshop_2018/Git/jessicronje.github.io/dafnia (master)
